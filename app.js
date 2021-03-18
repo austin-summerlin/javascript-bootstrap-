@@ -14,6 +14,7 @@ const divInput1 = document.getElementById ('div-input-1');
 const divInput2 = document.getElementById ('div-input-2');
 const divButton = document.getElementById ('div-button');
 const divResult = document.getElementById ('div-results');
+const clearFields = document.getElementById ('clear-fields');
 
 
 addButton.addEventListener('click', () => {
@@ -43,3 +44,16 @@ divButton.addEventListener('click', () => {
     const result = number7 / number8;
     divResult.textContent = result;
 });
+
+clearFields.addEventListener('click', () => {
+    addInput1.value = '';
+    addInput2.value = '';
+    subInput1.value = '';
+    subInput2.value = '';
+    mulInput1.value = '';
+    mulInput2.value = '';
+    divInput1.value = '';
+    divInput2.value = '';
+});
+
+console.log(clearFields)
