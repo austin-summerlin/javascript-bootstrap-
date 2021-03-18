@@ -55,5 +55,3 @@ clearFields.addEventListener('click', () => {
     divInput1.value = '';
     divInput2.value = '';
 });
-
-console.log(clearFields)
