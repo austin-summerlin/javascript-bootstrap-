@@ -12,7 +12,7 @@ export function handleAddClick() {
     addResult.textContent = sum;
 }
 
-const subInput1 = document.getElementById ('sub-input-1');
+const subInput1 = document.getElementById ('sub-input-1');  
 const subInput2 = document.getElementById ('sub-input-2');
 const subResult = document.getElementById ('sub-results');
 
